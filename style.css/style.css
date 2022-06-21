@@ -90,10 +90,14 @@ height: 50px;
 
 .nav-studio {
     color: var(--accent-color);
+    padding-top: 32px;
+        padding-bottom: 32px;
 }
 
 .nav-portf {
-    color: var(--title-text-color)
+    color: var(--title-text-color);
+    padding-top: 32px;
+        padding-bottom: 32px;
 }
 
 .nav-portf:hover,
@@ -102,7 +106,9 @@ height: 50px;
 }
 
 .contact {
-    color: var(--title-text-color)
+    color: var(--title-text-color);
+    padding-top: 32px;
+        padding-bottom: 32px;
 }
 
 .contact:hover,
@@ -176,10 +182,13 @@ height: 50px;
     line-height: 1.18;
     letter-spacing: 0.03em;
     text-align: center;
-    padding-top: 30px;
-    padding-bottom:10px;
+    
+    margin-bottom:10px;
 }
-
+.cart-text {
+    padding-top:30px;
+    padding-bottom:30px;
+}
 /* footer */
 .footer {
     background-color: var(--second-bgr-color);
@@ -188,9 +197,7 @@ height: 50px;
     font-weight: 400;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    text-align: left;
-    Font-family: Roboto;
-    border-radius: nullpx;
+    
     padding-top:60px;
     padding-bottom:60px;
 
@@ -277,8 +284,10 @@ button {
     line-height: 1.62;
     letter-spacing: 0.03em;
     text-align: center;
-    width: 73px;
-    height: 38px;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 6px;
+    padding-bottom: 6px;
 }
 
 .button-site {
@@ -289,8 +298,10 @@ button {
     line-height: 1.62;
     letter-spacing: 0.03em;
     text-align: center;
-    width: 128px;
-    height: 38px;
+    padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 22px;
+            padding-right: 22px;
 }
 
 .button-site:hover,
@@ -307,8 +318,10 @@ button {
     line-height: 1.62;
     letter-spacing: 0.03em;
     text-align: center;
-    width: 145px;
-    height: 38px;
+    padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 22px;
+            padding-right: 22px;
 }
 
 .button-pr:hover,
@@ -325,8 +338,10 @@ button {
     line-height: 1.62;
     letter-spacing: 0.03em;
     text-align: center;
-    width: 103px;
-    height: 38px;
+    padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 22px;
+            padding-right: 22px;
 }
 
 .button-dis:hover,
@@ -343,8 +358,10 @@ button {
     line-height: 1.62;
     letter-spacing: 0.03em;
     text-align: center;
-    width: 130px;
-    height: 38px;
+    padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 22px;
+        padding-right: 22px;
 }
 
 .button-mar:hover,
@@ -359,10 +376,7 @@ button {
     font-weight: 400;
     line-height: 1.87;
     letter-spacing: 0.03em;
-    text-align: left;
-    margin-left: 24px;
-        margin-bottom: 24px;
-    
+    text-align: left; 
 }
 
 .header-portfolio {
@@ -372,21 +386,26 @@ button {
     line-height: 2;
     letter-spacing: 0.06em;
     text-align: left;
-    margin-top: 20px;
-        margin-left: 24px;
-        margin-bottom: 4px;
     
+}
+.cart-port {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-bottom: 1px solid var(--third-bgr-color);
+    border-right: 1px solid var(--third-bgr-color); 
+    border-left: 1px solid var(--third-bgr-color); 
 }
 .nav-header {
     display:flex;
     margin:0;
     padding-left:0;
-   margin-right: 331px;
+   
 }
 .nav-header .item {
 margin-right: 50px;
-padding-top: 32px;
-    padding-bottom: 32px;
+
 }
 .nav-header .item:last-child {
     margin-right:0;
@@ -395,10 +414,10 @@ padding-top: 32px;
     display: flex;
     margin:0;
     padding:0;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    align-items: center;
     padding-left:0;
     font-size: 14px;
+    margin-left:auto;
 }
 .mail-header .item {
     margin-right: 50px;
@@ -408,16 +427,15 @@ padding-top: 32px;
 }
 .nav {
     display: block;
-    margin:0;
+    margin:32px;
 }
 .header-one .container {
     display: flex;
 }
 .logo {
-    display:flex;
-    margin-top:24px;
-    margin-bottom:25px;
-    margin-right: 93px;
+    padding-top:24px;
+    padding-bottom:25px;
+    padding-right: 93px;
 }
 .content {
     display:flex;
@@ -425,11 +443,12 @@ padding-top: 32px;
     padding:0;
     
 }
-
-.content .item .text {
+.content .item {
     margin-right: 30px;
-    width: 270px;
-    height: 75px;
+        width: 270px;
+}
+img {
+    display:block;
 }
 .container .content .item:last-child {
     margin-right: 0;
@@ -476,7 +495,7 @@ padding-top: 32px;
     
 }
 .footer-adr .item.item:not(:last-child) {
-    padding-bottom: 9px;
+    margin-bottom: 9px;
 }
 .data {
     margin-top: 20px;
@@ -505,9 +524,7 @@ padding-top: 32px;
     gap:30px
 }
 .poster .item {
-    border-style: solid;
-    border-width:1px;
-    border-color:var(--third-bgr-color);
-    width: 368px;
-    height: 402px;
+    
+    width: 370px;
+    
 }
