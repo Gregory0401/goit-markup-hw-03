@@ -258,6 +258,8 @@ height: 50px;
 /* навигация страницы портфолио */
 .nav-stud {
     color: var(--title-text-color);
+    padding-top: 32px;
+        padding-bottom: 32px;
 
 }
 
@@ -268,6 +270,8 @@ height: 50px;
 
 .nav-port {
     color: var(--accent-color);
+    padding-top: 32px;
+        padding-bottom: 32px;
 }
 
 /* кнопки страницы портфолио */
